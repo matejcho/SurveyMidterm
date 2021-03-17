@@ -17,6 +17,7 @@ namespace SurveyMidterm.Controllers
     [Consumes(MediaTypeNames.Application.Json)]
     public class AnswersController : ControllerBase
     {
+        //You said to put the id somewhere so here it is in the both controllers - Matej Gjozinski ID:4200
         private readonly IAnswerService _service;
         public AnswersController(IAnswerService service)
         {
